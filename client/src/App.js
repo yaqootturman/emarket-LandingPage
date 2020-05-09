@@ -1,11 +1,13 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" />
+      </Switch>
+    </Router>
   );
 }
 
