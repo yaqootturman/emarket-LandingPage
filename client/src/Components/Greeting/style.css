@@ -1,0 +1,30 @@
+.greeting{
+  background:  linear-gradient(180deg, rgba(255, 255, 255, 0) 19.08%, rgba(82, 177, 184, 0.33) 100%);
+  /* padding-block-start:148px; */
+  margin-top: 4vh;
+}
+
+.greeting__statement{
+  padding-top:13vh;
+}
+.greeting__statement__word{
+  color: #DB3535;
+}
+.greeting__chair-div__chair{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 700px){
+  
+.greeting__chair-div__chair{
+  /* padding-top: 27vh; */
+      position: absolute;
+    left: 0;
+    top: 31vh;
+}
+}
+
+/* @media only screen and (min-width: 900px) { */
+
+
