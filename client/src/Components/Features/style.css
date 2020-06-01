@@ -1,0 +1,11 @@
+.list{
+  width: 100vw;
+  margin-top:0px;
+  padding-right: 10px;
+}
+.list-group-item{
+  border: none;
+  padding-right: 11vw;
+  margin-top:0px;
+
+}
