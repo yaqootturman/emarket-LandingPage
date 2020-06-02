@@ -1,11 +1,22 @@
 .list{
-  width: 100vw;
-  margin-top:0px;
+  margin-top:-12px;
   padding-right: 10px;
+  justify-content: space-around;
 }
 .list-group-item{
   border: none;
-  padding-right: 11vw;
   margin-top:0px;
+  justify-self: center;
+  padding-right: 15px;
+
+}
+.list__image{
+  width:4vw;
+  height:4vw;
+
+}
+.list__feature{
+  font-weight: bold;
+  padding-inline-start: 15px;
 
 }

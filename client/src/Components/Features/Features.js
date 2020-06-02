@@ -12,16 +12,16 @@ const Features = () => {
 
     <ListGroup horizontal className="list">
       <ListGroup.Item>
-        <Image src={buying} />
-        <span>Free Shipping</span>
+        <Image className="list__image" src={buying} />
+        <span className="list__feature">Free Shipping</span>
       </ListGroup.Item>
       <ListGroup.Item>
-        <Image src={shirt} />
-        <span>90 Days Return</span>
+        <Image className="list__image" src={shirt} />
+        <span className="list__feature">90 Days Return</span>
       </ListGroup.Item>
       <ListGroup.Item>
-        <Image src={wallet} />
-        <span>Secure Payments</span>
+        <Image className="list__image" src={wallet} />
+        <span className="list__feature">Secure Payments</span>
       </ListGroup.Item>
 
 
