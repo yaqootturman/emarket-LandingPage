@@ -1,0 +1,19 @@
+.collection{
+  background-image: url('../../assets/rectangle.png');
+  margin-top: 10px;
+  height:100vh;
+}
+.collection__header{
+  text-align: center;
+  padding-top:6vh;
+}
+.collection__container{
+  padding: 66px 24px;
+}
+.collection__container__rows{
+  justify-content: space-around;
+}
+.card-img{
+  background-color: #EFF8F8;
+    border: 7px solid white;
+  }
