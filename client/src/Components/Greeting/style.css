@@ -1,7 +1,8 @@
 .greeting{
-  background:  linear-gradient(180deg, rgba(255, 255, 255, 0) 19.08%, rgba(82, 177, 184, 0.33) 100%);
+  background:  linear-gradient(180deg, rgba(255, 255, 255, 0) 19.08%, rgba(82, 177, 184, 0.33) 100vw);
   /* padding-block-start:148px; */
   margin-top: 4vh;
+
 }
 
 .greeting__statement{
@@ -19,12 +20,11 @@
   
 .greeting__chair-div__chair{
   /* padding-top: 27vh; */
-      position: absolute;
+    position: absolute;
     left: 0;
     top: 31vh;
 }
 }
 
-/* @media only screen and (min-width: 900px) { */
 
 
