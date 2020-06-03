@@ -1,12 +1,11 @@
 import React from 'react'
 import { Container, Row, Image, Card } from 'react-bootstrap'
-import rectangle from '../../assets/rectangle.png'
-import light from '../../assets/light.png'
 import chair2 from '../../assets/chair2.png'
 import table from '../../assets/table.png'
-import table2 from '../../assets/table2.png'
-import lights2 from '../../assets/lights2.png'
+import lamb from '../../assets/lamb.png'
+import vasa from '../../assets/vasa.png'
 import sofa from '../../assets/sofa.png'
+import chair3 from '../../assets/chair3.png'
 
 import './style.css'
 
@@ -18,7 +17,7 @@ const Collections = () => {
       <Container className="collection__container" >
         <Row className="collection__container__rows">
           <Card>
-            <Card.Img src={chair2} />
+            <Card.Img src={chair3} />
           </Card>
           <Card>
             <Card.Img src={chair2} />
@@ -33,10 +32,10 @@ const Collections = () => {
             <Card.Img src={sofa} />
           </Card>
           <Card>
-            <Card.Img src={table2} />
+            <Card.Img src={lamb} />
           </Card>
           <Card>
-            <Card.Img src={lights2} />
+            <Card.Img src={vasa} />
           </Card>
         </Row>
 
