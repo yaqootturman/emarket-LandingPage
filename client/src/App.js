@@ -4,6 +4,7 @@ import Header from './Components/Header/Header'
 import Greetiing from './Components/Greeting/Greeting'
 import Features from './Components/Features/Features'
 import Collections from './Components/Collections/Collections'
+import Products from './Components/Products/Products'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Greetiing />
       <Features />
       <Collections />
+      <Products />
     </Router>
   );
 }

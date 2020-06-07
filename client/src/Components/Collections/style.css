@@ -5,11 +5,7 @@
 .collection__header{
   text-align: center;
   padding-top:6vh;
-    /* text-decoration: underline;
-text-decoration-color:#DB3535; */
   position:relative;
-
-
 }
 .collection__header::after{
   content:'';
@@ -18,27 +14,18 @@ text-decoration-color:#DB3535; */
   background:#f24432;
   position:absolute;
   left:calc(50% - 4%);
-  bottom:-15px;
-/*   another way you can achieve this
-  Check this link: 
-  https://goo.gl/GgRdjz
-  
-  */
-  
+  bottom:-15px;  
 }
 .collection__container{
   padding: 37px 24px;
 }
 .collection__container__rows{
   justify-content: space-around;
-   /* display: table-cell; */
-  /* vertical-align: top; */
-  /* padding:  12vw; */
 }
 .card-img{
   background-color: #EFF8F8;
-    border: 7px solid white;
+  border: 7px solid white;
   justify-content: space-between;
-   width: 100%;
+  width: 100%;
   height: auto;
   }
