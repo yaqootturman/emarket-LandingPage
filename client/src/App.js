@@ -5,6 +5,7 @@ import Greetiing from './Components/Greeting/Greeting'
 import Features from './Components/Features/Features'
 import Collections from './Components/Collections/Collections'
 import Products from './Components/Products/Products'
+import Email from './Components/Email/Email'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Features />
       <Collections />
       <Products />
+      <Email />
     </Router>
   );
 }
