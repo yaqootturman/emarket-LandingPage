@@ -1,0 +1,20 @@
+.email-section{
+  height:30vh;
+  background-color: #EFF8F8;
+}
+.email-section__header{
+  text-transform:uppercase;
+  font-size: large;
+  margin-top: 10vh;
+  padding-top:10vh;
+  justify-content: center;
+  text-align: center;
+}
+  .email-section__form{
+  position: relative;
+  }
+.email-section input{
+  border-radius: 102px; 
+  width: 60vw;
+  margin: 5vh 20vw;
+}
