@@ -15,6 +15,7 @@
 .greeting__btn{
   text-decoration:underline;
   color:black;
+  padding-left: initial;
 }
 .greeting__chair-div__chair{
   display: block;

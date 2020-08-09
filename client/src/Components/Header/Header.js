@@ -14,11 +14,11 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-        <Nav className="mr-auto" activeKey="" className="justify-content-end">
-          <Nav.Item as="li"><Nav.Link ><Link to="greeting">Home</Link></Nav.Link></Nav.Item>
-          <Nav.Item as="li"><Nav.Link ><Link to="products">Products</Link></Nav.Link> </Nav.Item>
-          <Nav.Item as="li"> <Nav.Link><Link to="collection">Collections</Link></Nav.Link></Nav.Item>
-          <Nav.Item as="li"> <Nav.Link><Link to="email-section">Contact</Link></Nav.Link> </Nav.Item>
+        <Nav className="mr-auto" defaultActiveKey="greeting" className="justify-content-end">
+          <Nav.Item as="li"><Nav.Link eventKey="greeting"><Link to="greeting">Home</Link></Nav.Link></Nav.Item>
+          <Nav.Item as="li"><Nav.Link eventKey="products"><Link to="products">Products</Link></Nav.Link> </Nav.Item>
+          <Nav.Item as="li"> <Nav.Link eventKey="collection"><Link to="collection">Collections</Link></Nav.Link></Nav.Item>
+          <Nav.Item as="li"> <Nav.Link eventKey="email-section"><Link to="email-section">Contact</Link></Nav.Link> </Nav.Item>
         </Nav>
       </Navbar.Collapse>
 
