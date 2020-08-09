@@ -2,6 +2,7 @@
   background:  linear-gradient(180deg, rgba(255, 255, 255, 0) 19.08%, rgba(82, 177, 184, 0.33) 100vw);
   /* padding-block-start:148px; */
   margin-top: 4vh;
+  height:80vh;
 
 }
 
@@ -10,6 +11,10 @@
 }
 .greeting__statement__word{
   color: #DB3535;
+}
+.greeting__btn{
+  text-decoration:underline;
+  color:black;
 }
 .greeting__chair-div__chair{
   display: block;
