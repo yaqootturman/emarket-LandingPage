@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import React, { Fragment } from 'react';
 import Header from './Components/Header/Header'
 import Greetiing from './Components/Greeting/Greeting'
 import Features from './Components/Features/Features'
@@ -9,14 +8,14 @@ import Email from './Components/Email/Email'
 
 function App() {
   return (
-    <Router>
+    <Fragment>
       <Header />
       <Greetiing />
       <Features />
       <Collections />
       <Products />
       <Email />
-    </Router>
+    </Fragment>
   );
 }
 
