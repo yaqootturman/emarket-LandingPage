@@ -2,6 +2,10 @@
   "name": "emarket",
   "version": "1.0.0",
   "description": "This websit to prctise new knowledge",
+  "engines": {
+    "node": "8.10.0",
+    "npm": "6.9.2"
+  },
   "main": "index.js",
   "scripts": {
     "heroku-postbuild": "cd client && npm install && npm run build"
@@ -16,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/yaqootturman/emarket/issues"
   },
-  "homepage": "https://github.com/yaqootturman/emarket#readme"
+  "homepage": "https://github.com/yaqootturman/emarket#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
