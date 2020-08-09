@@ -1,0 +1,20 @@
+{
+  "name": "emarket",
+  "version": "1.0.0",
+  "description": "This websit to prctise new knowledge",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaqootturman/emarket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaqootturman/emarket/issues"
+  },
+  "homepage": "https://github.com/yaqootturman/emarket#readme"
+}
