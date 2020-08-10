@@ -8,9 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "client-install": "cd client && npm install",
-    "client": "cd client && npm start",
+    "start": "nodemon index.js",
     "build": "cd client && npm run build",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
